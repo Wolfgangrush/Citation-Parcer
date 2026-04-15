@@ -5,7 +5,7 @@ Local-first 24/7 system for receiving court judgment PDFs through Telegram, extr
 ## Quick Start
 
 ```bash
-cd /Users/wolfgang_rush/Desktop/Desktop\ -\ Wolfgang_rush\'s\ Mac\ mini/sccparser
+cd ~/sccparser
 ./install_sccparser.sh
 source ~/.zshrc
 sccparser on
@@ -38,7 +38,7 @@ The system will now run 24/7. Send PDFs to your Telegram bot anytime from court!
 ## Setup
 
 ```bash
-cd /Users/wolfgang_rush/Desktop/Desktop\ -\ Wolfgang_rush\'s\ Mac\ mini/sccparser
+cd ~/sccparser
 ./setup.sh
 ```
 
@@ -238,7 +238,7 @@ Add to crontab for automatic health checks:
 crontab -e
 
 # Add this line to check every 5 minutes and restart if needed:
-*/5 * * * * /Users/wolfgang_rush/Desktop/Desktop\ -\ Wolfgang_rush\'s\ Mac\ mini/sccparser/HEALTH_CHECK.sh >> /Users/wolfgang_rush/Desktop/Desktop\ -\ Wolfgang_rush\'s\ Mac\ mini/sccparser/logs/healthcheck.log 2>&1
+*/5 * * * * ~/sccparser/HEALTH_CHECK.sh >> ~/sccparser/logs/healthcheck.log 2>&1
 ```
 
 ## Notes

@@ -37,7 +37,7 @@ if ! grep -q "SCC Parser Auto-start" "$ZSHRC" 2>/dev/null; then
     cat >> "$ZSHRC" << 'EOF'
 
 # SCC Parser Auto-start (uncomment to start on login)
-# [[ -z "$TMUX" ]] && "$HOME/Desktop/Desktop - Wolfgang_rush's Mac mini/sccparser/sccparser" start &
+# [[ -z "$TMUX" ]] && "~/sccparser/sccparser" start &
 EOF
     echo "✓ Added auto-start option to .zshrc (commented by default)"
 fi
