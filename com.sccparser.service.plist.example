@@ -6,18 +6,18 @@
     <string>com.sccparser.service</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/wolfgang_rush/Desktop/Desktop - Wolfgang_rush’s Mac mini/sccparser/start</string>
+        <string>/path/to/sccparser/start</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
     <key>WorkingDirectory</key>
-    <string>/Users/wolfgang_rush/Desktop/Desktop - Wolfgang_rush’s Mac mini/sccparser</string>
+    <string>/path/to/sccparser</string>
     <key>StandardOutPath</key>
-    <string>/Users/wolfgang_rush/Desktop/Desktop - Wolfgang_rush’s Mac mini/sccparser/logs/service.log</string>
+    <string>/path/to/sccparser/logs/service.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/wolfgang_rush/Desktop/Desktop - Wolfgang_rush’s Mac mini/sccparser/logs/service-error.log</string>
+    <string>/path/to/sccparser/logs/service-error.log</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>SCCPARSER_PORT</key>
